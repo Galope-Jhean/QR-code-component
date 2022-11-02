@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
     display: grid;
     place-items: center;
@@ -26,21 +26,23 @@ body {
     margin-bottom: 15px;
 }
 
+.content {
+    text-align: center;
+}
+
 h1 {
     font-weight: 700;
-    font-size: 1.2em;
-    line-height: 1.5rem;
-    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.2;
     padding: 0 6px;
     color: hsl(218, 44%, 22%);
     margin-bottom: 15px;
 }
 
 .card p {
-    text-align: center;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    font-size: 0.85em;
+    font-size: 0.85rem;
     margin-bottom: 20px;
     padding: 0 8px;
 }
